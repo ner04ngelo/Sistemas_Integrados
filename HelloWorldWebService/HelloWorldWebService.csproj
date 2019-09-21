@@ -67,10 +67,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Greeting.asmx" />
+    <Content Include="RegistroProteinasServices.asmx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\IUserRepository.cs" />
+    <Compile Include="Clases\User.cs" />
+    <Compile Include="Clases\UserRepository.cs" />
+    <Compile Include="Greeting.asmx.cs">
+      <DependentUpon>Greeting.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegistroProteinasServices.asmx.cs">
+      <DependentUpon>RegistroProteinasServices.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
