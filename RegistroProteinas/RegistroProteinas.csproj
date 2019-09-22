@@ -7,16 +7,16 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{CD9D2EC5-A766-4946-801A-A79D31558700}</ProjectGuid>
+    <ProjectGuid>{44ABE3E4-6519-4AAA-88FB-EA78A95047F1}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HelloWorldWebService</RootNamespace>
-    <AssemblyName>HelloWorldWebService</AssemblyName>
+    <RootNamespace>RegistroProteinas</RootNamespace>
+    <AssemblyName>RegistroProteinas</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
-    <IISExpressSSLPort>44346</IISExpressSSLPort>
+    <IISExpressSSLPort>44390</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -67,20 +67,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ASMX\Greeting.asmx" />
-    <Content Include="ASMX\RegistroProteinasServices.asmx" />
+    <Content Include="RegistroProteinasServices.asmx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Clases\IUserRepository.cs" />
     <Compile Include="Clases\User.cs" />
     <Compile Include="Clases\UserRepository.cs" />
-    <Compile Include="ASMX\Greeting.asmx.cs">
-      <DependentUpon>Greeting.asmx</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ASMX\RegistroProteinasServices.asmx.cs">
+    <Compile Include="RegistroProteinasServices.asmx.cs">
       <DependentUpon>RegistroProteinasServices.asmx</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
@@ -107,9 +102,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>50201</DevelopmentServerPort>
+          <DevelopmentServerPort>50263</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>https://localhost:44346/</IISUrl>
+          <IISUrl>https://localhost:44390/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
