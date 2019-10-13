@@ -1,1 +1,1 @@
-﻿<%@ WebService Language="C#" CodeBehind="RegistroProteinasServices.asmx.cs" Class="HelloWorldWebService.RegistroProteinasServices" %>
+﻿<%@ WebService Language="C#" CodeBehind="RegistroProteinasServices.asmx.cs" Class="RegistroProteinas.RegistroProteinasServices" %>

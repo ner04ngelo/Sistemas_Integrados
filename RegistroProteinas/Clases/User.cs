@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace HelloWorldWebService.Clases
+namespace RegistroProteinas.Clases
 {
     public class User
     {

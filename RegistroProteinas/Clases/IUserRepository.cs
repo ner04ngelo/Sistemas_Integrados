@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HelloWorldWebService.Clases
+namespace RegistroProteinas.Clases
 {
     public interface IUserRepository
     {
